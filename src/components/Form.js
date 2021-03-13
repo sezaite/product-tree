@@ -1,11 +1,24 @@
 import Button from './Button'
+import { useState } from 'react';
 
-const Form = () => {
+const Form = ({ category, buttonValue, buttonStyle, formStyle, placeholder }) => {
+    const [text, setText] = useState('');
     return (
-        <form>
-            <Button type='submit' value='Add product' color='coral' />
+        <form className={formStyle}>
+            <label>Category name: {category && category} </label>
+            <input
+                type="text"
+                placeholder={"Enter " + placeholder}
+                value={text} onChange={(e) => setText(e.target.value)}
+            />
+            <Button buttonValue={buttonValue} buttonStyle={buttonStyle} />
         </form>
     )
+
+}
+
+Form.defaultProps = {
+    category: null,
 }
 
 export default Form

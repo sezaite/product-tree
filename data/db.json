@@ -1,0 +1,35 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Hunkute",
+            "price": 12.90
+        },
+        {
+            "id": 2,
+            "name": "Mahembe",
+            "price": 14.00
+        },
+        {
+            "id": 3,
+            "name": "Buziraguhindwa",
+            "price": 13.00
+        },
+        {
+            "id": 4,
+            "name": "Decaf",
+            "children": [
+                {
+                    "id": 1,
+                    "name": "Hunkute",
+                    "price": 10.00
+                },
+                {
+                    "id": 2,
+                    "name": "Gitesi",
+                    "price": 10.00
+                }
+            ]
+        }
+    ]
+}
