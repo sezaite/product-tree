@@ -1,7 +1,7 @@
 import Button from './Button'
 import { useState } from 'react';
 
-const Form = ({ category, buttonValue, buttonStyle, formStyle, placeholder }) => {
+const Form = ({ category, buttonValue, buttonStyle, formStyle, placeholder, onAdd }) => {
     const [text, setText] = useState('');
     return (
         <form className={formStyle}>
@@ -11,7 +11,7 @@ const Form = ({ category, buttonValue, buttonStyle, formStyle, placeholder }) =>
                 placeholder={"Enter " + placeholder}
                 value={text} onChange={(e) => setText(e.target.value)}
             />
-            <Button buttonValue={buttonValue} buttonStyle={buttonStyle} />
+            <Button buttonValue={buttonValue} buttonStyle={buttonStyle} onAdd={onAdd} />
         </form>
     )
 

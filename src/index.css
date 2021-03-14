@@ -28,20 +28,9 @@ a {
   margin: 20px 80px;
 }
 
-.product-tree {
-
-}
 .product-tree .list {
-  position: relative;
-}
 
-.product-tree .subList{
-  position: absolute;
-  bottom: 0;
-  left: 10px;
-  background-color: var(--third-color);
 }
-
 .product-tree .subList .item {
   background-color: var(--third-color);
   margin-bottom: 2px;
@@ -122,10 +111,14 @@ button.toggle {
   border-style: none;
   outline: none;
   margin-left: 2px;
+  font-size: 24px;
+  line-height: 1;
+  padding: 1px;
 }
 
 button.toggle:hover {
   background-color: var(--main-text-color);
+  color: #fff;
   
 }
 

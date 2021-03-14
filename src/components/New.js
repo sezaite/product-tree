@@ -1,11 +1,8 @@
 import Form from './Form'
 import List from './List'
 
-const New = ({ itemUrl }) => {
-
-
+const New = () => {
     const addCat = async (cat) => {
-        setIsPending(true)
         const resp = await fetch('http://localhost:8000/items', {
             method: 'POST',
             headers: {
@@ -17,8 +14,7 @@ const New = ({ itemUrl }) => {
 
     return (
         <div>
-            <List />
-            <h1>{formHeader}</h1>
+            <h1>Add new</h1>
             <Form category='#' buttonValue='Submit' buttonStyle='btn add' formStyle='new-form' placeholder='a new category name' />
         </div>
     )

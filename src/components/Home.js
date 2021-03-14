@@ -3,7 +3,8 @@ import List from './List'
 
 const Home = () => {
 
-    const [categories, setCategories] = useState([])
+    const [categories, setCategories] = useState([]);
+
 
     useEffect(() => {
         const getData = async () => {

@@ -5,7 +5,7 @@ const Nav = () => {
         <header className='header'>
             <h1>Product tree app</h1>
             <Link to="/" className='btn home'>Home</Link>
-            <Link to="/new" className='btn add'>New Category</Link>
+            <Link to="/new" className='btn add' list=''>New Category</Link>
         </header>
     )
 }

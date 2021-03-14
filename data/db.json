@@ -30,6 +30,104 @@
                     "price": 10.00
                 }
             ]
+        },
+        {
+            "id": 5,
+            "name": "Espresso",
+            "children": [
+                {
+                    "id": 1,
+                    "name": "South America",
+                    "children": [
+                        {
+                            "id": 1,
+                            "name": "Brasil",
+                            "children": [
+                                {
+                                    "id": 1,
+                                    "name": "B",
+                                    "price": 13.00
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "A",
+                                    "price": 10.90
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Ecuador",
+                            "children": [
+                                {
+                                    "id": 1,
+                                    "name": "Lot 8",
+                                    "price": 12.00
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Lot 6",
+                                    "price": 10.00
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "name": "Costa Rica",
+                            "children": [
+                                {
+                                    "id": 1,
+                                    "name": "Lot 7",
+                                    "price": 9.00
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Lot 5",
+                                    "price": 13.00
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Africa",
+                    "children": [
+                        {
+                            "id": 1,
+                            "name": "Kenya",
+                            "children": [
+                                {
+                                    "id": 1,
+                                    "name": "Lot 7",
+                                    "price": 9.00
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Lot 5",
+                                    "price": 13.00
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Ethiopia",
+                            "children": [
+                                {
+                                    "id": 1,
+                                    "name": "Lot 7",
+                                    "price": 9.00
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Lot 5",
+                                    "price": 13.00
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
